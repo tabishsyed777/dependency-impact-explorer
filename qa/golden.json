@@ -1,0 +1,218 @@
+[
+  {
+    "q": "Impact of tax",
+    "a": "pricing, cart, checkout",
+    "ids": [
+      "dep-0-2",
+      "dep-0-1",
+      "dep-0-0"
+    ]
+  },
+  {
+    "q": "Direct users of pricing",
+    "a": "cart",
+    "ids": [
+      "dep-0-1"
+    ]
+  },
+  {
+    "q": "Dependencies of checkout",
+    "a": "cart",
+    "ids": [
+      "dep-0-0"
+    ]
+  },
+  {
+    "q": "Impact of pricing",
+    "a": "cart, checkout",
+    "ids": [
+      "dep-0-1",
+      "dep-0-0"
+    ]
+  },
+  {
+    "q": "Impact of checkout",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Impact of keys",
+    "a": "identity, profiles, portal",
+    "ids": [
+      "dep-1-2",
+      "dep-1-1",
+      "dep-1-0"
+    ]
+  },
+  {
+    "q": "Direct users of identity",
+    "a": "profiles",
+    "ids": [
+      "dep-1-1"
+    ]
+  },
+  {
+    "q": "Dependencies of portal",
+    "a": "profiles",
+    "ids": [
+      "dep-1-0"
+    ]
+  },
+  {
+    "q": "Impact of identity",
+    "a": "profiles, portal",
+    "ids": [
+      "dep-1-1",
+      "dep-1-0"
+    ]
+  },
+  {
+    "q": "Impact of portal",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Impact of clock",
+    "a": "metrics, charts, console",
+    "ids": [
+      "dep-2-2",
+      "dep-2-1",
+      "dep-2-0"
+    ]
+  },
+  {
+    "q": "Direct users of metrics",
+    "a": "charts",
+    "ids": [
+      "dep-2-1"
+    ]
+  },
+  {
+    "q": "Dependencies of console",
+    "a": "charts",
+    "ids": [
+      "dep-2-0"
+    ]
+  },
+  {
+    "q": "Impact of metrics",
+    "a": "charts, console",
+    "ids": [
+      "dep-2-1",
+      "dep-2-0"
+    ]
+  },
+  {
+    "q": "Impact of console",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Impact of tiles",
+    "a": "maps, routing, delivery",
+    "ids": [
+      "dep-3-2",
+      "dep-3-1",
+      "dep-3-0"
+    ]
+  },
+  {
+    "q": "Direct users of maps",
+    "a": "routing",
+    "ids": [
+      "dep-3-1"
+    ]
+  },
+  {
+    "q": "Dependencies of delivery",
+    "a": "routing",
+    "ids": [
+      "dep-3-0"
+    ]
+  },
+  {
+    "q": "Impact of maps",
+    "a": "routing, delivery",
+    "ids": [
+      "dep-3-1",
+      "dep-3-0"
+    ]
+  },
+  {
+    "q": "Impact of delivery",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Impact of codec",
+    "a": "index, catalog, search",
+    "ids": [
+      "dep-4-2",
+      "dep-4-1",
+      "dep-4-0"
+    ]
+  },
+  {
+    "q": "Direct users of index",
+    "a": "catalog",
+    "ids": [
+      "dep-4-1"
+    ]
+  },
+  {
+    "q": "Dependencies of search",
+    "a": "catalog",
+    "ids": [
+      "dep-4-0"
+    ]
+  },
+  {
+    "q": "Impact of index",
+    "a": "catalog, search",
+    "ids": [
+      "dep-4-1",
+      "dep-4-0"
+    ]
+  },
+  {
+    "q": "Impact of search",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Impact of units",
+    "a": "ledger, invoices, billing",
+    "ids": [
+      "dep-5-2",
+      "dep-5-1",
+      "dep-5-0"
+    ]
+  },
+  {
+    "q": "Direct users of ledger",
+    "a": "invoices",
+    "ids": [
+      "dep-5-1"
+    ]
+  },
+  {
+    "q": "Dependencies of billing",
+    "a": "invoices",
+    "ids": [
+      "dep-5-0"
+    ]
+  },
+  {
+    "q": "Impact of ledger",
+    "a": "invoices, billing",
+    "ids": [
+      "dep-5-1",
+      "dep-5-0"
+    ]
+  },
+  {
+    "q": "Impact of billing",
+    "a": null,
+    "ids": []
+  }
+]

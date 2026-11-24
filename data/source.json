@@ -1,0 +1,110 @@
+[
+  {
+    "id": "dep-0-0",
+    "source": "source.json#/0",
+    "consumer": "checkout",
+    "dependency": "cart"
+  },
+  {
+    "id": "dep-0-1",
+    "source": "source.json#/1",
+    "consumer": "cart",
+    "dependency": "pricing"
+  },
+  {
+    "id": "dep-0-2",
+    "source": "source.json#/2",
+    "consumer": "pricing",
+    "dependency": "tax"
+  },
+  {
+    "id": "dep-1-0",
+    "source": "source.json#/3",
+    "consumer": "portal",
+    "dependency": "profiles"
+  },
+  {
+    "id": "dep-1-1",
+    "source": "source.json#/4",
+    "consumer": "profiles",
+    "dependency": "identity"
+  },
+  {
+    "id": "dep-1-2",
+    "source": "source.json#/5",
+    "consumer": "identity",
+    "dependency": "keys"
+  },
+  {
+    "id": "dep-2-0",
+    "source": "source.json#/6",
+    "consumer": "console",
+    "dependency": "charts"
+  },
+  {
+    "id": "dep-2-1",
+    "source": "source.json#/7",
+    "consumer": "charts",
+    "dependency": "metrics"
+  },
+  {
+    "id": "dep-2-2",
+    "source": "source.json#/8",
+    "consumer": "metrics",
+    "dependency": "clock"
+  },
+  {
+    "id": "dep-3-0",
+    "source": "source.json#/9",
+    "consumer": "delivery",
+    "dependency": "routing"
+  },
+  {
+    "id": "dep-3-1",
+    "source": "source.json#/10",
+    "consumer": "routing",
+    "dependency": "maps"
+  },
+  {
+    "id": "dep-3-2",
+    "source": "source.json#/11",
+    "consumer": "maps",
+    "dependency": "tiles"
+  },
+  {
+    "id": "dep-4-0",
+    "source": "source.json#/12",
+    "consumer": "search",
+    "dependency": "catalog"
+  },
+  {
+    "id": "dep-4-1",
+    "source": "source.json#/13",
+    "consumer": "catalog",
+    "dependency": "index"
+  },
+  {
+    "id": "dep-4-2",
+    "source": "source.json#/14",
+    "consumer": "index",
+    "dependency": "codec"
+  },
+  {
+    "id": "dep-5-0",
+    "source": "source.json#/15",
+    "consumer": "billing",
+    "dependency": "invoices"
+  },
+  {
+    "id": "dep-5-1",
+    "source": "source.json#/16",
+    "consumer": "invoices",
+    "dependency": "ledger"
+  },
+  {
+    "id": "dep-5-2",
+    "source": "source.json#/17",
+    "consumer": "ledger",
+    "dependency": "units"
+  }
+]

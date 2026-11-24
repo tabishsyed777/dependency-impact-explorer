@@ -1,0 +1,18 @@
+[
+  [
+    "direct users of tax",
+    "pricing"
+  ],
+  [
+    "dependencies of pricing",
+    "tax"
+  ],
+  [
+    "impact of checkout?",
+    null
+  ],
+  [
+    "impact of units",
+    "ledger, invoices, billing"
+  ]
+]

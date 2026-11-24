@@ -1,0 +1,416 @@
+{
+  "automated_gates_pass": true,
+  "metrics": {
+    "cases": 30,
+    "answer_accuracy": 1,
+    "citation_exact": 1,
+    "recall_at_5": 1.0,
+    "grounded_answer_exact": 1,
+    "refusal": 1,
+    "concurrent_accuracy": 1,
+    "p50_ms": 6.1342510000201855,
+    "p95_ms": 11.204141999996864,
+    "records": 18,
+    "source_bytes": 2088,
+    "concurrent_readers": 50,
+    "golden_sha256": "50e64991a7772232a9928cf346129ad3342d962deb8942a13e424a3ec4b08362"
+  },
+  "observations": [
+    {
+      "question": "Impact of tax",
+      "status": "answered",
+      "answer": "pricing, cart, checkout",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-0-2",
+          "source": "source.json#/2"
+        },
+        {
+          "id": "dep-0-1",
+          "source": "source.json#/1"
+        },
+        {
+          "id": "dep-0-0",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "Direct users of pricing",
+      "status": "answered",
+      "answer": "cart",
+      "method": "direct users of",
+      "citations": [
+        {
+          "id": "dep-0-1",
+          "source": "source.json#/1"
+        }
+      ]
+    },
+    {
+      "question": "Dependencies of checkout",
+      "status": "answered",
+      "answer": "cart",
+      "method": "dependencies of",
+      "citations": [
+        {
+          "id": "dep-0-0",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "Impact of pricing",
+      "status": "answered",
+      "answer": "cart, checkout",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-0-1",
+          "source": "source.json#/1"
+        },
+        {
+          "id": "dep-0-0",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "Impact of checkout",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Impact of keys",
+      "status": "answered",
+      "answer": "identity, profiles, portal",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-1-2",
+          "source": "source.json#/5"
+        },
+        {
+          "id": "dep-1-1",
+          "source": "source.json#/4"
+        },
+        {
+          "id": "dep-1-0",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "Direct users of identity",
+      "status": "answered",
+      "answer": "profiles",
+      "method": "direct users of",
+      "citations": [
+        {
+          "id": "dep-1-1",
+          "source": "source.json#/4"
+        }
+      ]
+    },
+    {
+      "question": "Dependencies of portal",
+      "status": "answered",
+      "answer": "profiles",
+      "method": "dependencies of",
+      "citations": [
+        {
+          "id": "dep-1-0",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "Impact of identity",
+      "status": "answered",
+      "answer": "profiles, portal",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-1-1",
+          "source": "source.json#/4"
+        },
+        {
+          "id": "dep-1-0",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "Impact of portal",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Impact of clock",
+      "status": "answered",
+      "answer": "metrics, charts, console",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-2-2",
+          "source": "source.json#/8"
+        },
+        {
+          "id": "dep-2-1",
+          "source": "source.json#/7"
+        },
+        {
+          "id": "dep-2-0",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "Direct users of metrics",
+      "status": "answered",
+      "answer": "charts",
+      "method": "direct users of",
+      "citations": [
+        {
+          "id": "dep-2-1",
+          "source": "source.json#/7"
+        }
+      ]
+    },
+    {
+      "question": "Dependencies of console",
+      "status": "answered",
+      "answer": "charts",
+      "method": "dependencies of",
+      "citations": [
+        {
+          "id": "dep-2-0",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "Impact of metrics",
+      "status": "answered",
+      "answer": "charts, console",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-2-1",
+          "source": "source.json#/7"
+        },
+        {
+          "id": "dep-2-0",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "Impact of console",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Impact of tiles",
+      "status": "answered",
+      "answer": "maps, routing, delivery",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-3-2",
+          "source": "source.json#/11"
+        },
+        {
+          "id": "dep-3-1",
+          "source": "source.json#/10"
+        },
+        {
+          "id": "dep-3-0",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "Direct users of maps",
+      "status": "answered",
+      "answer": "routing",
+      "method": "direct users of",
+      "citations": [
+        {
+          "id": "dep-3-1",
+          "source": "source.json#/10"
+        }
+      ]
+    },
+    {
+      "question": "Dependencies of delivery",
+      "status": "answered",
+      "answer": "routing",
+      "method": "dependencies of",
+      "citations": [
+        {
+          "id": "dep-3-0",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "Impact of maps",
+      "status": "answered",
+      "answer": "routing, delivery",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-3-1",
+          "source": "source.json#/10"
+        },
+        {
+          "id": "dep-3-0",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "Impact of delivery",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Impact of codec",
+      "status": "answered",
+      "answer": "index, catalog, search",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-4-2",
+          "source": "source.json#/14"
+        },
+        {
+          "id": "dep-4-1",
+          "source": "source.json#/13"
+        },
+        {
+          "id": "dep-4-0",
+          "source": "source.json#/12"
+        }
+      ]
+    },
+    {
+      "question": "Direct users of index",
+      "status": "answered",
+      "answer": "catalog",
+      "method": "direct users of",
+      "citations": [
+        {
+          "id": "dep-4-1",
+          "source": "source.json#/13"
+        }
+      ]
+    },
+    {
+      "question": "Dependencies of search",
+      "status": "answered",
+      "answer": "catalog",
+      "method": "dependencies of",
+      "citations": [
+        {
+          "id": "dep-4-0",
+          "source": "source.json#/12"
+        }
+      ]
+    },
+    {
+      "question": "Impact of index",
+      "status": "answered",
+      "answer": "catalog, search",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-4-1",
+          "source": "source.json#/13"
+        },
+        {
+          "id": "dep-4-0",
+          "source": "source.json#/12"
+        }
+      ]
+    },
+    {
+      "question": "Impact of search",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Impact of units",
+      "status": "answered",
+      "answer": "ledger, invoices, billing",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-5-2",
+          "source": "source.json#/17"
+        },
+        {
+          "id": "dep-5-1",
+          "source": "source.json#/16"
+        },
+        {
+          "id": "dep-5-0",
+          "source": "source.json#/15"
+        }
+      ]
+    },
+    {
+      "question": "Direct users of ledger",
+      "status": "answered",
+      "answer": "invoices",
+      "method": "direct users of",
+      "citations": [
+        {
+          "id": "dep-5-1",
+          "source": "source.json#/16"
+        }
+      ]
+    },
+    {
+      "question": "Dependencies of billing",
+      "status": "answered",
+      "answer": "invoices",
+      "method": "dependencies of",
+      "citations": [
+        {
+          "id": "dep-5-0",
+          "source": "source.json#/15"
+        }
+      ]
+    },
+    {
+      "question": "Impact of ledger",
+      "status": "answered",
+      "answer": "invoices, billing",
+      "method": "impact of",
+      "citations": [
+        {
+          "id": "dep-5-1",
+          "source": "source.json#/16"
+        },
+        {
+          "id": "dep-5-0",
+          "source": "source.json#/15"
+        }
+      ]
+    },
+    {
+      "question": "Impact of billing",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    }
+  ]
+}
